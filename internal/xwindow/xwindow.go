@@ -10,7 +10,7 @@ import (
 	"github.com/BurntSushi/xgb/xinerama"
 	"github.com/BurntSushi/xgb/xproto"
 	"github.com/gen2brain/shm"
-	"github.com/kbinani/screenshot/internal/util"
+	"github.com/bo-er/screenshot/internal/util"
 )
 
 func Capture(x, y, width, height int) (img *image.RGBA, e error) {
